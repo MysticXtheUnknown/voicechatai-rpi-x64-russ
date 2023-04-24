@@ -161,7 +161,7 @@ python3 russ-ai-chat-voice.py
 
 #hotwords while the audio is playing are 'stop output' (pauses), 'grapefruit' (resume) and 'shut up' to end audio playback and go back start.
 
-at this point you can say "blueberry", wait for beep, then speak your message to the ai.  You can see decibal values in the terminal at this point.  You need to change the my_threshold variable (at the beginning of russ-ai-chat.py) to a value appropriate to your microphone.  Look at the values and choose one somewhere in the middle.  With a couple tries and you'll have it right.  When the decibal is below the threshold, the system detects silence.  after two seconds of silence, the message is turned to text and sent to chat gpt (youll hear another beep when recording ends.).  This can be difficult to use or fix in a noisy room, keep in mind.
+at this point you can say "blueberry", wait for beep, then speak your message to the ai.  You can see decibal values in the terminal at this point.  You need to change the my_threshold variable (at the beginning of russ-ai-chat-voice.py) to a value appropriate to your microphone.  Look at the values and choose one somewhere in the middle.  With a couple tries and you'll have it right.  When the decibal is below the threshold, the system detects silence.  after two seconds of silence, the message is turned to text and sent to chat gpt (youll hear another beep when recording ends.).  This can be difficult to use or fix in a noisy room, keep in mind.
 
 Or you could have said "look up", wait for a beep, and then provide the title for a wikipedia article (e.g. 'dog').  the voice to text will read out the condensed article.  This requires no ai, it's just text to speech.
 
@@ -312,7 +312,7 @@ sudo chmod 777 path_to_folder/*
 
 why: it's not detecting 2 seconds of silence below your set threshold.
 
-fix: your my_threshold is too low. Raise it.  look at the beginning of the russ-ai-chat.py.  change my_threshold to a value appropriate for your microphone.  To see some of these values, just say blueberry and look at the terminal output as the decibal levels change when you speak.  A value somewhere in the middle of those values should be a fine place to start.  You should be able to tweak this and get it working comfortably relatively easily.
+fix: your my_threshold is too low. Raise it.  look at the beginning of the russ-ai-chat-voice.py.  change my_threshold to a value appropriate for your microphone.  To see some of these values, just say blueberry and look at the terminal output as the decibal levels change when you speak.  A value somewhere in the middle of those values should be a fine place to start.  You should be able to tweak this and get it working comfortably relatively easily.
 
 #Help! It detects silence too quickly and stops when im speaking.
 
@@ -402,7 +402,7 @@ answer: it's easy to configure vnc server.  I couldnt configure vnc on manjaro *
 
 #What microphone to use?
 
-Edutige eim-003 or plantronics voyager bluetooth earpiece are both tested on pi. galaxy buds dont work for audio input on pi or steam deck.  Other microphones should work, you need to adjust my_threshold variable in the russ-ai-chat.py script after you confirm the microphone is working.  (pavucontrol can be good for configuring the mic)
+Edutige eim-003 or plantronics voyager bluetooth earpiece are both tested on pi. galaxy buds dont work for audio input on pi or steam deck.  Other microphones should work, you need to adjust my_threshold variable in the russ-ai-chat-voice.py script after you confirm the microphone is working.  (pavucontrol can be good for configuring the mic)
 
 #MY mic plugged into the audio jack of my pi 3b wont work!
 yup.  pi 3b audio jack is output only. use a usb sound card (10$ on amazon) or a bluetooth earpiece.  Plantronics voyager bt earpiece works for input and output.  Set it as hands-free (h2p) using your os' gui, blueman, or console commands.
