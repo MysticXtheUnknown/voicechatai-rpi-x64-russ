@@ -48,6 +48,11 @@ raspberry pi os bullseye x64 or manjaro x64
 
 ########## INSTALLING on raspberry pi
 
+#clone the repository:
+
+cd /yourfolderforstuff/
+git clone https://github.com/MysticXtheUnknown/voicechatai-rpi-x64-russ.git
+
 ###### INSTALL SCRIPT: You can skip some steps and continue at 'FINISH INSTALL', if you want to, by running the install script: (pay attention: NOT 'sudo').
 
 #make sure you are internet connected.
@@ -113,7 +118,6 @@ pip3 install colorama
 pip3 install wikit
 
 #for the requests library, if you dont have it.  does nothing if you already have it.
-
 pip3 install requests
 
 #and finally for sanity reboot the system (save your work first):
