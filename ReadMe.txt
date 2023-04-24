@@ -165,7 +165,7 @@ python3 russ-ai-chat-voice.py
 
 #hotwords while the audio is playing are 'stop output' (pauses), 'grapefruit' (resume) and 'shut up' to end audio playback and go back start.
 
-at this point you can say "blueberry", wait for beep, then speak your message to the ai.  You can see decibal values in the terminal at this point.  You need to change the my_threshold variable (at the beginning of russ-ai-chat-voice.py) to a value appropriate to your microphone.  Look at the values and choose one somewhere in the middle.  With a couple tries and you'll have it right.  When the decibal is below the threshold, the system detects silence.  after two seconds of silence, the message is turned to text and sent to chat gpt (youll hear another beep when recording ends.).  This can be difficult to use or fix in a noisy room, keep in mind.
+at this point you can say "blueberry", wait for beep, then speak your message to the ai.  You can see decibal values in the terminal at this point.  You need to change the my_threshold variable (at the beginning of russ-ai-chat-voice.py) to a value appropriate to your microphone.  Look at the values and choose one somewhere in the middle.  With a couple tries and you'll have it right.  When the decibal is below the threshold, the system detects silence.  after two seconds of silence, youll hear a beep, and the message is turned to text and sent to chat gpt (youll hear another beep when recording ends.).  This can be difficult to use or fix in a noisy room, keep in mind.
 
 Or you could have said "look up", wait for a beep, and then provide the title for a wikipedia article (e.g. 'dog').  the voice to text will read out the condensed article.  This requires no ai, it's just text to speech.
 
