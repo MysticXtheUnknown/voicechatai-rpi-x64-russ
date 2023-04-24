@@ -79,7 +79,7 @@ def main():
 
         if response is not None:
             print(f"AI: {response}")
-            history += f"{response}\n"
+            #history += f"{response}\n"
 
 if __name__ == "__main__":
     main()
