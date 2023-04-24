@@ -7,7 +7,7 @@ Russell's Voice Ai Chat (RVAC) for chat-gpt, using the openai api.
 an ai voice control tutor using chatgpt 3.5.
 by Archaeopteryx
 
-Voice control your chatgpt: no reading, no typing.
+Voice control your chatgpt: no reading, no typing.  Uses openai api, pvporcupine api, and google text to speech and speech to text apis.
 
 For instance, you say, "blueberry, how are you today", it gets the ai response and uses text to speech and you hear: "as a large language model i dont have any feelings, but i'm happy to assist you in any way i can.  How can I be of service?"
 
