@@ -1,0 +1,25 @@
+(from readme.md)
+
+()LICENSE:
+
+The user of this software accepts any costs associated with API keys, memberships, and fees for api access.  No keys are provided.  No guarantees about economic or low token usage are given.
+
+do whatever you want, however, porcupine has it's own license in the license folder so be aware if you alter and redistribute ppn files.
+
+do give me credit (Archaeopteryx) in your readme and include 'about the original author' as it appears later in the document with my book info.
+
+This software is provided for free, and NO WARANTEE is expressed, implied or granted.  You use this software at your own risk, and the original author russ is not responsible or liable for any damages or data loss, or loss of property, sanity, data leak, etc.
+
+No guarantees about the security of this code, the security of the data being transmitted, etc.  not recommended for commercial projects.  I dont know anything about encryption.  Please review the code making up the main script before running it.
+
+Please use at your own discretion and take responsibility for your actions and their consequences.  Please consider what data you are sending and only use trusted internet connections.
+
+this code can be reproduced in any form in full or in part, without my permission.  Go crazy.
+
+if you make money with all or a portion of this code by selling or repackaging it, 1% of your profits from the sale of the product containing the code will go to the charity New Hope For Women in Belfast, Maine, USA.
+
+By using or altering, or redistributing this software, you accept this agreement.
+
+#NOTE: if redistributing, make sure to check the pvporcupine license.  last i checked it was Apache 2.0 in april of 2023.
+
+
