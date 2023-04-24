@@ -1,0 +1,3 @@
+#PLEASE DELETE THIS FILE AND REPLACE WITH YOUR JSON FILE FROM GOOGLE.  rename it 'google-creds.json'
+
+#Make sure to enable speech to text api and text to speech api at the google cloud website.
