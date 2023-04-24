@@ -98,7 +98,7 @@ sudo apt-get install python3-pyaudio
 #Install Porcupine for hotword detection:
 pip3 install pvporcupine
 
-#Install Pygame for playing MP3 files: this may be preinstalled on bullseye.
+#Install Pygame for managing audio streams: this may be preinstalled on bullseye.
 pip3 install pygame
 
 #Install sounddevice for mp3 playback
