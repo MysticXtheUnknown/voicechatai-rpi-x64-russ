@@ -1,4 +1,4 @@
-(from readme.md)
+(from readme.txt)
 
 ()LICENSE:
 
