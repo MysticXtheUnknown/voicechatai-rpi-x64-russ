@@ -558,7 +558,7 @@ def check_internet(): #threaded, checks for internet connection
 
         except OSError:
             has_internet = False
-            play_mp3_file("no-inet.mp3")
+            #play_mp3_file("no-inet.mp3")
             print("No Internet Connection")
 
 
