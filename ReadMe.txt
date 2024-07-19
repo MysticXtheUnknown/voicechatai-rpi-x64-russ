@@ -1,3 +1,7 @@
+Hi you have to redo the porcupine pvp hotword stuff as even with the correct version of the library (older as of now), it doesnt want to run.
+you could easily replace the hotword detection with a keypress detection.
+good luck.
+
 # TITLE
 
 Russell's Voice Ai Chat (RVAC) for chat-gpt, using the openai api.
